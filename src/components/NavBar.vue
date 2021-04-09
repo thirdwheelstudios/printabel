@@ -11,8 +11,15 @@ nav {
 }
 
 a {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.75);
   text-decoration: none;
+  padding: 0.25em 0.5em;
+  border-radius: 1.5em;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .brand {
