@@ -15,22 +15,21 @@ nav {
   background: linear-gradient(to right, #303f9f 66%, #3f51b5);
 }
 
+.brand {
+  font-size: 1.5em;
+}
+
 a {
-  color: rgba(255, 255, 255, 0.75);
-  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
   padding: 0.25em 0.5em;
   margin: 0.25em;
   border-radius: 1.5em;
-  font-weight: 700;
 }
 
-a:hover {
+a:hover,
+a.router-link-active {
   color: rgba(255, 255, 255, 0.9);
   background-color: rgba(255, 255, 255, 0.2);
-}
-
-.brand {
-  font-size: 1.5em;
 }
 
 ul {

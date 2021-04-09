@@ -1,5 +1,7 @@
 <template>
-  <h1>Create Labels</h1>
+  <div class="content">
+    <p>Create Labels</p>
+  </div>
 </template>
 
 <script lang="ts">
